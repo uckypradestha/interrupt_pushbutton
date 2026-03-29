@@ -6,6 +6,10 @@
 
 <img width="1536" height="632" alt="button-interrupt" src="https://github.com/user-attachments/assets/dec00c54-ce3a-4b6e-8644-8b2b2cc89735" />
 
+```cpp
+attachInterrupt(digitalPinToInterrupt(buttonPin), buttonInterrupt, CHANGE)
+```
+
 <p>Pada sketch di atas, terdapat sebuah ISR untuk penekanan tombol yang bernama buttonInterrupt(). Di dalam ISR tersebut terdapat kode yang membaca buttonPin dan menghidupkan atau mematikan LED merah.</p>
 
 <h2>Konfigurasi Pin</h2>
