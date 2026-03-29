@@ -12,3 +12,6 @@ Pada sketch di atas, terdapat sebuah ISR untuk penekanan tombol yang bernama but
     <li>LED Merah -------- Pin 11</li>
     <li>Push Button ------ Pin 2</li>
 </ul>
+
+# Penerapan Pada Hardware
+https://www.tinkercad.com/things/gaKYJJh3dri-button-interrupt
